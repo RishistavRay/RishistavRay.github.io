@@ -73,3 +73,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 Name: Rishistav Ray <br/>
 This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io
+
+![Activity 1 Screenshot](screenshots/Activity1.png)

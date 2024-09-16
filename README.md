@@ -71,5 +71,5 @@ To view a live example, **[click here](https://varadbhogayata.github.io/)**
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
 
-Name: Rishistav Ray
+Name: Rishistav Ray <br/>
 This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io

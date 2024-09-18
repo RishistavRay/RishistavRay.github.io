@@ -627,7 +627,7 @@
         description: "Includes OpenCV code for Roulette Ball tracking and a Recurrent Neural Network Model",
         githubLink: "https://github.com/RishistavRay/Neural-Networks---Roulette-Predictor",
         youtubeLink: "https://youtu.be/iyOA8437Paw",
-        dateCreated: "2026-06-05"
+        dateCreated: "2023-03-02"
       },
       {
         thumbnail: "/assets/img/project-arcade-game.png",
@@ -637,7 +637,7 @@
         description: "Created an arcade machine and game – Web Slingers using DE1-SoC board, an external monitor, and controllers. Implemented finite-state machines to construct obstacles.",
         githubLink: "https://github.com/RishistavRay/Arcade-Game",
         youtubeLink: "",
-        dateCreated: "2027-08-07",
+        dateCreated: "2027-03-05",
       },
       {      
         thumbnail: "/assets/img/UniMap.png",
@@ -647,15 +647,16 @@
         description: "Conceptualized and developed a fluid 'Maps' application, UniMap, in a team of three. Implemented features such as navigation between classes, to-do lists, and bookmarks.",
         githubLink: "https://github.com/RishistavRay/UniMap",
         youtubeLink: "",
-        dateCreated: "2023-05-02"
+        dateCreated: "2021-03-05",
       }
     ];
+
+    allProjects.sort((a, b) => new Date(b.dateCreated) - new Date(a.dateCreated));
 
     // Function to generate the project cards
     function generateProjectCards() {
       projects.push(allProjects[displayTotal]);
       const container = document.getElementById('projects-container');
-      projects.sort((a, b) => new Date(b.dateCreated) - new Date(a.dateCreated));
       let existingHtml = "";
       projects.forEach(project => {
         cardHtml = `

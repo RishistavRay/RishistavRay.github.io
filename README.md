@@ -90,3 +90,9 @@ This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.
 <br/>
 <br/>
 ![Activity 3.2 Screenshot](screenshots/Activity3.2.png)
+
+#### Activity 4
+![Activity 4.1 Screenshot](screenshots/Activity4.1.png)
+<br/>
+<br/>
+![Activity 4.2 Screenshot](screenshots/Activity4.2.png)

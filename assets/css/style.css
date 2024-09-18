@@ -653,6 +653,11 @@ small {
   }
 }
 
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   h2 {
     font-size: 22px;

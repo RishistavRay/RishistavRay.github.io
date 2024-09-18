@@ -78,3 +78,9 @@ This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.
 <br/>
 <br/>
 ![Activity 1 Screenshot](screenshots/Activity1.png)
+
+#### Activity 2
+![Activity 2.1 Screenshot](screenshots/Activity2.1.png)
+<br/>
+<br/>
+![Activity 2.2 Screenshot](screenshots/Activity2.2.png)

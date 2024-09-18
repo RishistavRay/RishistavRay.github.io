@@ -656,6 +656,9 @@
     // Function to generate the project cards
     function generateProjectCards() {
       projects.push(allProjects[displayTotal]);
+      if(displayTotal == 1) {
+        projects.push(allProjects[displayTotal + 1]);
+      }
       const container = document.getElementById('projects-container');
       let existingHtml = "";
       projects.forEach(project => {
@@ -688,7 +691,6 @@
       container.innerHTML = existingHtml;
       ++displayTotal;
     }
-
     loadMoreProjects();
   </script>
 
